@@ -1,0 +1,107 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar{
+    width:240px;
+    min-height:100vh;
+    background:white;
+    padding:25px;
+    box-shadow:4px 0 20px rgba(0,0,0,.08);
+    position:sticky;
+    top:0;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  margin: 12px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.sidebar li:hover {
+  background: #2563eb;
+  transform: translateX(8px);
+}
+
+.logo{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.logo-icon{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.logo h2{
+    color:#7A4E3A;
+    font-size:28px;
+    font-weight:700;
+}
+
+.logo p{
+    color:#8D6E63;
+    font-size:14px;
+    margin-top:5px;
+}
+.logo::after{
+    content:"";
+    display:block;
+    width:70%;
+    height:2px;
+    background:#E8D7CC;
+    margin:20px auto;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(
+        135deg,
+        #D6A77A,
+        #C98C6B,
+        #B87457
+    );
+    box-shadow: 0 10px 25px rgba(201,140,107,.25);
+
+    color: white;      /* ← Make sure this is present */
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.navbar h1 {
+    font-size: 42px;
+    font-weight: 800;
+    color: white;
+}
+
+.logout-btn{
+    background:white;
+    color:#B87457;
+    border:none;
+    padding:10px 20px;
+    border-radius:10px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.logout-btn:hover{
+    transform:translateY(-2px);
+}
+.main-content{
+
+padding:25px;
+
+flex:1;
+
+overflow-y:auto;
+
+}

@@ -1,0 +1,126 @@
+/* Cards */
+
+.card{
+    background:white;
+    border-radius:22px;
+    padding:30px;
+    margin-top:25px;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+/* Dashboard Cards */
+
+.dashboard-cards{
+    display:flex;
+    flex-wrap:wrap;
+justify-content:center;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+    margin-top:25px;
+}
+.dashboard-title{
+    font-size:30px;
+    font-weight:700;
+    text-align:center;
+    color:#7A4E3A;
+    margin-bottom:20px;
+}
+.dashboard-subtitle{
+    color:#8D6E63;
+    margin-bottom:20px;
+    font-size:16px;
+}
+.stat-card{
+    min-width:220px;
+    background:white;
+    border-radius:18px;
+    padding:35px;
+    text-align:center;
+    box-shadow:0 6px 16px rgba(0,0,0,.08);
+    transition:transform .3s ease, box-shadow .3s ease;
+    position:relative;
+    overflow:hidden;
+}
+.products-card{
+    background:linear-gradient(
+        135deg,
+        #D6A77A,
+        #C98C6B
+    );
+    color:white;
+}
+.stock-card{
+    background:linear-gradient(
+        135deg,
+        #E6B98F,
+        #D6A77A
+    );
+    color:white;
+}
+
+.supplier-card{
+    background:linear-gradient(
+        135deg,
+        #C98C6B,
+        #B87457
+    );
+    color:white;
+}
+.out-card{
+    background:linear-gradient(
+        135deg,
+        #C98C6B,
+        #B87457
+    );
+    color:white;
+}
+.value-card{
+    background:linear-gradient(
+        135deg,
+        #D6A77A,
+        #C98C6B,
+        #B87457
+    );
+    color:white;
+}
+.card-icon{
+    font-size:46px;
+    margin-bottom:18px;
+    color:white;
+}
+/* Alert */
+
+.alert{
+    background:#fff7ed;
+    border-left:7px solid #f59e0b;
+    padding:20px;
+    border-radius:15px;
+    margin-top:25px;
+}
+.welcome-banner{
+    background: linear-gradient(
+        135deg,
+        #FFF7F3,
+        #F6E8DF
+    );
+
+    padding: 25px 30px;
+
+    border-radius: 20px;
+
+    margin-bottom: 25px;
+
+    text-align: left;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.welcome-banner h2{
+    color: #7A4E3A;
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+
+.welcome-banner p{
+    color: #8D6E63;
+    font-size: 16px;
+}

@@ -1,18 +1,95 @@
-# React + Vite
+# 📦 Smart Inventory Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack **Smart Inventory Management System** built using **React**, **FastAPI**, and **SQLite**. This application helps manage products and suppliers while providing inventory insights through a clean and responsive dashboard.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* 🔑 Simple Login Page
+* 📦 Add, Update and Delete Products
+* 🚚 Add, Update and Delete Suppliers
+* 📊 Dashboard with Inventory Statistics
+* ⚠️ Low Stock Alerts
+* 🔍 Search Products
+* 📥 Export Inventory to CSV
+* 📱 Responsive User Interface
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Axios
+* React Toastify
+* CSS
+
+### Backend
+
+* FastAPI
+* Python
+
+### Database
+
+* SQLite
+
+---
+
+## 📂 Project Structure
+
+```text
+smart-inventory-management-system/
+│
+├── src/
+│   ├── backend/
+│   └── frontend/
+│
+├── package.json
+├── vite.config.js
+├── README.md
+└── .gitignore
+```
+
+---
+
+## ▶️ Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/kasturi-cyber/smart-inventory-management-system.git
+```
+
+### Frontend
+
+```bash
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd src/backend
+python -m uvicorn main:app --reload
+```
+
+---
+
+## 🌱 Future Improvements
+
+* JWT Authentication
+* Role-Based Access Control
+* Barcode Scanner Integration
+* Cloud Database Support
+
+---
+
+## 👩‍💻 Author
+
+**Kasturi**
+
+GitHub: https://github.com/kasturi-cyber
+
